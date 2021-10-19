@@ -1,0 +1,93 @@
+body {
+  background-color: #112233;
+}
+
+.search-input {
+  background-color: #3f4063;
+  color: white;
+
+  &:focus {
+    background-color: #3f4063;
+    color: white;
+  }
+
+  &::placeholder {
+    color: rgb(226, 226, 226);
+  }
+}
+
+.icon-container {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.text-white {
+  color: white;
+}
+
+.temperature-reading {
+  font-size: 70px;
+}
+
+.vertical-seperator {
+  border-left: 1px solid white;
+}
+
+@media (max-width: 767px) {
+  .sm-mt-10 {
+    margin-top: 30px;
+  }
+
+  .text-align-sm-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .small-screen-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+
+  .margin-right-0 {
+    margin-right: 0 !important;
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+
+  .col-xs-2 {
+    max-width: 20%;
+  }
+
+  .col-xs-10 {
+    max-width: 59%;
+  }
+
+  .col-xs-half-2 {
+    max-width: 50%;
+  }
+
+  .margin-right-20 {
+    margin-right: 20px;
+  }
+
+  .margin-left-10 {
+    margin-left: 35px;
+  }
+
+  .flex-justify-center {
+    justify-content: center;
+  }
+
+  .xs-horizontal-line {
+    max-width: 80%;
+    margin-left: 35px;
+  }
+}
+
+.horizontal-line {
+  border-top: 2px solid white;
+}
