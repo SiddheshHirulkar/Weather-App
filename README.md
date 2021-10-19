@@ -4,7 +4,7 @@ This weather app gives information about the current weather in your city, you j
 
 ## Application available
 
-This application is available on [http://localhost:3000](http://localhost:3000)
+This application is available on [http://localhost:3000](Weather App)
 
 ## About weather info
 
